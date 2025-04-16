@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Fast, Expressive SE(N) Equivariant Networks through Weight-Sharing in Position-Orientation Space"
+date:   2024-05-01 23:59:59 +00:00
+# image: /images/conformalbbox2.jpg
+categories: research
+author: "Putri van der Linden"
+authors: "Erik J. Bekkers, Sharvaree Vadgama, Rob D. Hesselink, <strong>Putri A. van der Linden</strong>, David W. Romero"
+venue: in Proceedings of the 12th International Conference on Learning Representations (ICLR)
+# note:
+paper: https://arxiv.org/pdf/2310.02970
+# code:
+# poster: 
+# video: 
+# slides:
+---
+
+<!-- We quantify the uncertainty in multi-object 2D bounding box predictions via conformal prediction, producing tight prediction intervals with guaranteed per-class coverage for the bounding box coordinates. -->

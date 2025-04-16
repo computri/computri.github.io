@@ -35,11 +35,33 @@ td,
 th,
 tr,
 
+// Background
+body {
+  background-color: #b9b9b9;
+  color: #000000;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  font-display: auto;
+
+  
+}
+
+.corner-image {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 1000px;       // or whatever size you want
+  opacity: 0.2;        // optional, fade it a bit
+  pointer-events: none; // optional, so it doesn't interfere with mouse clicks
+  z-index: 10;         // make sure it floats above bg
+}
+
 // Main body text
 p {
   font-family: "Noto Sans", sans-serif;
   font-size: 13px;
   font-display: auto;
+  
 }
 
 // Bold text
@@ -51,7 +73,7 @@ b {
 
 // Title text
 main {
-  font-family: "VT323", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 36px;
   font-weight: normal;
   font-display: auto;
@@ -65,8 +87,8 @@ main {
 
 // Subsec text
 sub-sec {
-  font-family: "VT323", monospace;
-  font-size: 26px;
+  font-family: "Inconsolata", monospace;
+  font-size: 36px;
   font-display: auto;
   font-weight: normal;
   padding: 0px;
